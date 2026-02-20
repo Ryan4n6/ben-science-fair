@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Does Adding Weight Make a Hot Wheels Car Faster? — Ben Massfeller</title>
+<style>
+:root {
+  --bg: #0a1628;
+  --card: #111d33;
+  --border: #1e3a5f;
+  --text: #e0e6ed;
+  --muted: #8899aa;
+  --accent: #4da6ff;
+  --gold: #d4af37;
+  --green: #34d399;
+  --red: #f87171;
+  --orange: #fb923c;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1 { color: var(--gold); font-size: 1.5rem; margin-bottom: 0.25rem; }
+h2 { color: var(--accent); font-size: 1.2rem; margin: 1.5rem 0 0.75rem; border-bottom: 1px solid var(--border); padding-bottom: 0.25rem; }
+h3 { color: var(--muted); font-size: 0.95rem; margin: 1rem 0 0.5rem; }
+.subtitle { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; }
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 0.75rem 0;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  margin: 0.5rem 0;
+}
+th {
+  background: rgba(77,166,255,0.1);
+  color: var(--accent);
+  text-align: left;
+  padding: 0.5rem;
+  border-bottom: 2px solid var(--border);
+  font-weight: 600;
+}
+td {
+  padding: 0.4rem 0.5rem;
+  border-bottom: 1px solid rgba(30,58,95,0.5);
+}
+tr:hover td { background: rgba(77,166,255,0.05); }
+.faster { color: var(--green); font-weight: 600; }
+.slower { color: var(--red); font-weight: 600; }
+.best { color: var(--gold); font-weight: 700; }
+.finding {
+  background: rgba(212,175,55,0.1);
+  border-left: 3px solid var(--gold);
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0;
+  border-radius: 0 6px 6px 0;
+}
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+.badge-control { background: rgba(77,166,255,0.2); color: var(--accent); }
+.badge-test { background: rgba(251,146,60,0.2); color: var(--orange); }
+.hypothesis { font-style: italic; color: var(--muted); }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+.stat-box { text-align: center; }
+.stat-num { font-size: 2rem; font-weight: 700; color: var(--gold); }
+.stat-label { font-size: 0.8rem; color: var(--muted); }
+footer {
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+
+<h1>Does Adding Weight to a Hot Wheels Car Make It Go Faster or Slower?</h1>
+<div class="subtitle">Ben Massfeller &middot; Grade 5 &middot; 2026 Science Fair</div>
+
+<div class="grid">
+  <div class="card stat-box">
+    <div class="stat-num">25</div>
+    <div class="stat-label">Race Runs</div>
+  </div>
+  <div class="card stat-box">
+    <div class="stat-num">5.85m</div>
+    <div class="stat-label">Track Length</div>
+  </div>
+  <div class="card stat-box">
+    <div class="stat-num">4</div>
+    <div class="stat-label">Weight Conditions</div>
+  </div>
+  <div class="card stat-box">
+    <div class="stat-num">3</div>
+    <div class="stat-label">Trials Each</div>
+  </div>
+</div>
+
+<h2>Hypothesis</h2>
+<div class="card">
+  <p class="hypothesis">"If I add more weight to a Hot Wheels car, then it will go faster down the ramp, because heavier things have more energy at the top."</p>
+</div>
+
+<h2>Variables</h2>
+<div class="card">
+  <p><strong>Independent Variable (what I changed):</strong> Amount of weight added &mdash; 0g, 3.5g, 7g, or 14g of tungsten</p>
+  <p><strong>Dependent Variable (what I measured):</strong> Speed (m/s) and time (seconds)</p>
+  <p><strong>Controlled Variables:</strong> Track length (5.85m), start position, release method, car model (F-150), NFC sticker weight (0.025g)</p>
+</div>
+
+<h2>Test Cars</h2>
+<div class="grid">
+  <div class="card">
+    <span class="badge badge-control">CONTROL</span>
+    <h3>F-150 Control</h3>
+    <p>Base weight: <strong>38.025g</strong></p>
+    <p style="color:var(--muted);font-size:0.85rem;">The heavier twin</p>
+  </div>
+  <div class="card">
+    <span class="badge badge-test">TEST</span>
+    <h3>F-150 Test</h3>
+    <p>Base weight: <strong>31.546g</strong></p>
+    <p style="color:var(--muted);font-size:0.85rem;">The lighter twin (20.5% lighter!)</p>
+  </div>
+</div>
+
+<h2>Raw Data &mdash; F-150 Control</h2>
+<div class="card">
+<table>
+  <tr><th>Condition</th><th>Total (g)</th><th>Trial 1</th><th>Trial 2</th><th>Trial 3</th><th>Avg Time</th><th>Avg Speed</th></tr>
+  <tr><td>No weight</td><td>38.025</td><td>1.561s</td><td>1.507s</td><td>1.490s</td><td>1.519s</td><td>3.85 m/s</td></tr>
+  <tr><td>+3.5g</td><td>41.525</td><td>1.481s</td><td>1.481s</td><td>1.515s</td><td>1.492s</td><td class="faster">3.92 m/s</td></tr>
+  <tr><td>+7g</td><td>45.025</td><td>1.504s</td><td>1.478s</td><td>1.499s</td><td>1.493s</td><td>3.92 m/s</td></tr>
+  <tr><td>+14g</td><td>52.025</td><td>1.515s</td><td>1.508s</td><td>1.483s</td><td>1.502s</td><td class="slower">3.90 m/s</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--muted);margin-top:0.5rem;">Note: One +14g trial (1.687s) was an outlier (wall hit). Replaced with extra trial.</p>
+</div>
+
+<h2>Raw Data &mdash; F-150 Test</h2>
+<div class="card">
+<table>
+  <tr><th>Condition</th><th>Total (g)</th><th>Trial 1</th><th>Trial 2</th><th>Trial 3</th><th>Avg Time</th><th>Avg Speed</th></tr>
+  <tr><td>No weight</td><td>31.546</td><td>1.544s</td><td>1.510s</td><td>1.477s</td><td>1.510s</td><td>3.88 m/s</td></tr>
+  <tr><td>+3.5g</td><td>35.046</td><td>1.474s</td><td>1.480s</td><td>1.518s</td><td>1.491s</td><td class="faster">3.93 m/s</td></tr>
+  <tr><td>+7g</td><td>38.546</td><td>1.512s</td><td>1.470s</td><td>1.515s</td><td>1.499s</td><td>3.91 m/s</td></tr>
+  <tr><td>+14g</td><td>45.546</td><td>1.468s</td><td>1.481s</td><td>1.473s</td><td>1.474s</td><td class="best">3.97 m/s &#9733;</td></tr>
+</table>
+</div>
+
+<h2>Physics Calculations</h2>
+<div class="card">
+<table>
+  <tr><th>Condition</th><th>Car</th><th>Mass (kg)</th><th>Speed (m/s)</th><th>Momentum (kg&middot;m/s)</th><th>KE (J)</th></tr>
+  <tr><td>No weight</td><td><span class="badge badge-control">CTL</span></td><td>0.038</td><td>3.85</td><td>0.147</td><td>0.282</td></tr>
+  <tr><td>No weight</td><td><span class="badge badge-test">TST</span></td><td>0.032</td><td>3.88</td><td>0.122</td><td>0.237</td></tr>
+  <tr><td>+3.5g</td><td><span class="badge badge-control">CTL</span></td><td>0.042</td><td>3.92</td><td>0.163</td><td>0.319</td></tr>
+  <tr><td>+3.5g</td><td><span class="badge badge-test">TST</span></td><td>0.035</td><td>3.93</td><td>0.138</td><td>0.270</td></tr>
+  <tr><td>+7g</td><td><span class="badge badge-control">CTL</span></td><td>0.045</td><td>3.92</td><td>0.176</td><td>0.346</td></tr>
+  <tr><td>+7g</td><td><span class="badge badge-test">TST</span></td><td>0.039</td><td>3.91</td><td>0.151</td><td>0.294</td></tr>
+  <tr><td>+14g</td><td><span class="badge badge-control">CTL</span></td><td>0.052</td><td>3.90</td><td>0.197</td><td>0.374</td></tr>
+  <tr><td>+14g</td><td><span class="badge badge-test">TST</span></td><td>0.046</td><td class="best">3.97</td><td>0.181</td><td>0.359</td></tr>
+</table>
+</div>
+
+<h2>Key Findings</h2>
+<div class="finding">
+  <strong>1. The Sweet Spot:</strong> Adding 3.5g of tungsten was the best amount &mdash; both cars got faster without slowing down.
+</div>
+<div class="finding">
+  <strong>2. More Isn't Always Better:</strong> The Control car (heavier twin) got slower at +14g. Too much weight = too much friction.
+</div>
+<div class="finding">
+  <strong>3. Lighter Cars Handle More Weight:</strong> The Test car (lighter twin) kept getting faster all the way to +14g because it started lighter.
+</div>
+<div class="finding">
+  <strong>4. "Identical" Cars Aren't Identical:</strong> Two F-150s from the same package differ by 6.5g (20.5%). You have to actually weigh things.
+</div>
+
+<h2>Conclusion</h2>
+<div class="card">
+  <p>My hypothesis was <strong>partly right</strong>. Adding a little weight made cars faster (more energy), but adding too much weight made the heavier car slower (more friction). There's an optimal weight for maximum speed &mdash; a sweet spot where energy beats friction.</p>
+  <p style="margin-top:0.5rem;color:var(--muted);font-size:0.9rem;">The lighter car had more room before hitting its friction limit, which is why it kept getting faster while the heavier car slowed down.</p>
+</div>
+
+<h2>About the M.A.S.S. Trap</h2>
+<div class="card">
+  <p>The <strong>M.A.S.S. Trap</strong> (Motion Analysis &amp; Speed System) is an ESP32-based physics lab that my dad and I built. It uses infrared break-beam sensors to measure race times to &plusmn;0.001 seconds, then calculates speed, momentum, and kinetic energy automatically.</p>
+  <p style="margin-top:0.5rem;"><a href="https://ryan4n6.github.io/MASS-Trap/" style="color:var(--accent);">Learn more about the M.A.S.S. Trap &rarr;</a></p>
+</div>
+
+<footer>
+  <p>Data collected February 17 &amp; 19, 2026 using the M.A.S.S. Trap</p>
+  <p>Track: 5.85m &middot; Scale: 1:64 &middot; Precision: &plusmn;0.001s</p>
+  <p style="margin-top:0.5rem;"><a href="https://github.com/Ryan4n6/MASS-Trap">M.A.S.S. Trap on GitHub</a></p>
+</footer>
+
+</body>
+</html>

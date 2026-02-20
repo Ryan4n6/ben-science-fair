@@ -1,0 +1,66 @@
+Experiment,Date,Run,Car,Base Weight (g),Added Weight (g),Total Weight (g),Condition,Trial,Time (s),Speed (m/s),Speed (mph),Scale Speed (mph),Momentum (kg*m/s),Kinetic Energy (J),Outlier,Notes
+F-150 Weight Experiment,2026-02-17,1,F-150 Control,38.025,0.0,38.025,0g added,1,1.5612,3.749,8.39,536.7,0.1425,0.2672,,
+F-150 Weight Experiment,2026-02-17,2,F-150 Test,31.546,0.0,31.546,0g added,1,1.5443,3.790,8.48,542.5,0.1195,0.2265,,
+F-150 Weight Experiment,2026-02-17,3,F-150 Control,38.025,0.0,38.025,0g added,2,1.5072,3.883,8.69,555.9,0.1476,0.2866,,
+F-150 Weight Experiment,2026-02-17,4,F-150 Test,31.546,0.0,31.546,0g added,2,1.5099,3.876,8.67,554.9,0.1223,0.2369,,
+F-150 Weight Experiment,2026-02-17,5,F-150 Control,38.025,0.0,38.025,0g added,3,1.4895,3.929,8.79,562.5,0.1494,0.2935,,
+F-150 Weight Experiment,2026-02-17,6,F-150 Test,31.546,0.0,31.546,0g added,3,1.4773,3.961,8.86,567.1,0.1250,0.2475,,
+F-150 Weight Experiment,2026-02-17,7,F-150 Control,38.025,3.5,41.525,+3.5g tungsten,1,1.4813,3.951,8.84,565.6,0.1641,0.3241,,
+F-150 Weight Experiment,2026-02-17,8,F-150 Test,31.546,3.5,35.046,+3.5g tungsten,1,1.4742,3.970,8.88,568.3,0.1391,0.2761,,
+F-150 Weight Experiment,2026-02-17,9,F-150 Control,38.025,3.5,41.525,+3.5g tungsten,2,1.4806,3.953,8.84,565.9,0.1641,0.3244,,
+F-150 Weight Experiment,2026-02-17,10,F-150 Test,31.546,3.5,35.046,+3.5g tungsten,2,1.4801,3.954,8.84,566.1,0.1386,0.2739,,
+F-150 Weight Experiment,2026-02-17,11,F-150 Control,38.025,3.5,41.525,+3.5g tungsten,3,1.5152,3.862,8.64,552.9,0.1604,0.3097,,
+F-150 Weight Experiment,2026-02-17,12,F-150 Test,31.546,3.5,35.046,+3.5g tungsten,3,1.5180,3.855,8.62,551.9,0.1351,0.2604,,
+F-150 Weight Experiment,2026-02-17,13,F-150 Control,38.025,7.0,45.025,+7g tungsten,1,1.5035,3.892,8.71,557.2,0.1753,0.3411,,
+F-150 Weight Experiment,2026-02-17,14,F-150 Test,31.546,7.0,38.546,+7g tungsten,1,1.5123,3.870,8.66,554.0,0.1492,0.2886,,
+F-150 Weight Experiment,2026-02-17,15,F-150 Control,38.025,7.0,45.025,+7g tungsten,2,1.4779,3.960,8.86,566.9,0.1783,0.3530,,
+F-150 Weight Experiment,2026-02-17,16,F-150 Test,31.546,7.0,38.546,+7g tungsten,2,1.4696,3.982,8.91,570.1,0.1535,0.3056,,
+F-150 Weight Experiment,2026-02-17,17,F-150 Control,38.025,7.0,45.025,+7g tungsten,3,1.4987,3.905,8.73,559.0,0.1758,0.3433,,
+F-150 Weight Experiment,2026-02-17,18,F-150 Test,31.546,7.0,38.546,+7g tungsten,3,1.5147,3.864,8.64,553.1,0.1489,0.2877,,
+F-150 Weight Experiment,2026-02-17,19,F-150 Control,38.025,14.0,52.025,+14g tungsten,1,1.5148,3.863,8.64,553.1,0.2010,0.3882,,
+F-150 Weight Experiment,2026-02-17,20,F-150 Test,31.546,14.0,45.546,+14g tungsten,1,1.4676,3.988,8.92,570.9,0.1816,0.3621,,
+F-150 Weight Experiment,2026-02-17,21,F-150 Control,38.025,14.0,52.025,+14g tungsten,2,1.6870,3.469,7.76,496.6,0.1805,0.3130,YES,Car may have hit wall - replaced with extra trial
+F-150 Weight Experiment,2026-02-17,22,F-150 Control,38.025,14.0,52.025,+14g tungsten,3,1.5083,3.880,8.68,555.5,0.2019,0.3916,,
+F-150 Weight Experiment,2026-02-17,23,F-150 Test,31.546,14.0,45.546,+14g tungsten,2,1.4805,3.953,8.84,565.9,0.1800,0.3558,,
+F-150 Weight Experiment,2026-02-17,24,F-150 Control,38.025,14.0,52.025,+14g tungsten,4,1.4833,3.945,8.83,564.8,0.2053,0.4049,,
+F-150 Weight Experiment,2026-02-17,25,F-150 Test,31.546,14.0,45.546,+14g tungsten,3,1.4734,3.972,8.88,568.6,0.1809,0.3593,,
+VW Truck Telemetry,2026-02-19,7,VW Truck M41,34.626,13.9,48.500,XIAO + Tape (13.8g),,1.5221,3.845,8.60,550.4,0.1865,0.3585,,
+VW Truck Telemetry,2026-02-19,8,VW Truck M41,34.626,13.9,48.500,XIAO + Tape (13.8g),,1.4586,4.012,8.98,574.4,0.1946,0.3904,,
+VW Truck Telemetry,2026-02-19,10,VW Truck M41,34.626,13.9,48.500,XIAO + Tape (13.8g),,1.5052,3.888,8.70,556.6,0.1886,0.3666,,
+VW Truck Telemetry,2026-02-19,11,VW Truck M41,34.626,13.9,48.500,XIAO + Tape (13.8g),,1.4958,3.912,8.75,560.1,0.1898,0.3712,,
+VW Truck Telemetry,2026-02-19,13,VW Truck (Stock),34.626,14.3,48.884,No sensor (tape residue),,1.4473,4.044,9.05,578.9,0.1977,0.3996,,
+VW Truck Telemetry,2026-02-19,14,VW Truck (Stock),34.626,14.3,48.884,No sensor (tape residue),,1.4654,3.994,8.93,571.7,0.1952,0.3898,,
+F-150 Confirmation,2026-02-19,1,F-150 Control,38.025,0.0,38.025,0g added (confirmation),1,1.4266,4.102,9.18,587.3,0.1560,0.3199,,
+F-150 Confirmation,2026-02-19,2,F-150 Test,31.546,0.0,31.546,0g added (confirmation),1,1.4294,4.094,9.16,586.1,0.1292,0.2644,,
+F-150 Confirmation,2026-02-19,3,F-150 Test,31.546,0.0,31.546,0g added (confirmation),2,1.4239,4.110,9.19,588.4,0.1297,0.2664,,
+F-150 Confirmation,2026-02-19,4,F-150 Control,38.025,0.0,38.025,0g added (confirmation),2,1.4434,4.054,9.07,580.5,0.1542,0.3125,,
+F-150 Confirmation,2026-02-19,5,F-150 Control,38.025,0.0,38.025,0g added (confirmation),3,1.4271,4.101,9.17,587.1,0.1559,0.3197,,
+F-150 Confirmation,2026-02-19,12,F-150 Test,31.546,0.0,31.546,0g added (confirmation),3,1.4371,4.072,9.11,583.0,0.1285,0.2616,,
+
+--- SUMMARY: F-150 Weight Experiment Averages ---
+Condition,Car,Total Weight (g),Avg Time (s),Avg Speed (m/s),Avg Momentum (kg*m/s),Avg KE (J),Trials Used
+0g added,F-150 Control,38.025,1.5193,3.852,0.1465,0.2821,3
+0g added,F-150 Test,31.546,1.5105,3.874,0.1222,0.2368,3
++3.5g tungsten,F-150 Control,41.525,1.4924,3.921,0.1628,0.3193,3
++3.5g tungsten,F-150 Test,35.046,1.4908,3.926,0.1376,0.2700,3
++7g tungsten,F-150 Control,45.025,1.4934,3.919,0.1764,0.3457,3
++7g tungsten,F-150 Test,38.546,1.4989,3.904,0.1505,0.2938,3
++14g tungsten,F-150 Control,52.025,1.5021,3.896,0.2027,0.3948,3
++14g tungsten,F-150 Test,45.546,1.4738,3.971,0.1809,0.3591,3
+
+--- SUMMARY: VW Truck Comparison ---
+Car,Weight (g),Condition,Avg Time (s),Avg Speed (m/s),Runs
+VW Truck M41,48.500,XIAO sensor on roof,1.4954,3.913,4
+VW Truck (Stock),48.884,No sensor (tape only),1.4564,4.018,2
+,,Difference,,0.105 m/s faster without sensor (2.7%),
+
+--- EXPERIMENT DESIGN ---
+Independent Variable (IV):,"Amount of added weight (0g, +3.5g, +7g, +14g tungsten)"
+Dependent Variable (DV):,Speed (m/s) and Time (s)
+Controlled Variables (CV):,"Track length (5.8522m), start height, release method, car model (F-150), NFC tag mass (0.025g)"
+Track Length:,5.8522 meters (19.2 feet)
+Scale:,1:64
+Measurement System:,M.A.S.S. Trap (ESP32-S3 + IR break-beam sensors)
+Precision:,"+/- 0.001 seconds (microsecond clock, +/- 10ms sync uncertainty)"
+Student:,"Ben Massfeller, Grade 5"
+
